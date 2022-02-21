@@ -10,11 +10,6 @@ class Credential:
 
 
 
-
-
-
-
-
 def generate_password(self,pass_len=8):
         random_str = ascii_letters+punctuation+digits
         password = "".join(choice(random_str) for x in range(pass_len))
@@ -67,7 +62,7 @@ def view_account(self,name):
         for account in self.account_list:
             if account['name']==name:
                 return account
-                
+
 
 
 
