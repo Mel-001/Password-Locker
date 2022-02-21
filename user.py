@@ -21,4 +21,6 @@ def login(self,email,password):
             self.isLoggedIn = False
             return False
 
-
+def logout(self):
+        self.isLoggedIn = False
+        return True
