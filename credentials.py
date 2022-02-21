@@ -32,7 +32,13 @@ def save_credential(self,name,username,password):
         return True
 
 
+def delete_credential(self,name):
 
+        '''
+        delete_credential method allows the user to delete the credentials from the credential_list
+        '''
+        self.account_list = [x for x in self.account_list if x["name"] !=name]
+        return True
 
 
 
