@@ -12,3 +12,6 @@ def main():
 
     print(f"Hey {first_name} you're a step into password_locker. Please enter your last name.")
     last_name = input()
+
+    print(f"Hey {first_name} {last_name} input your credential user email ")
+    user_email = input()
