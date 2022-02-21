@@ -63,8 +63,11 @@ def display_credential(self):
         '''
         return self.account_list
 
-
-
+def view_account(self,name):
+        for account in self.account_list:
+            if account['name']==name:
+                return account
+                
 
 
 
