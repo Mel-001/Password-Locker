@@ -15,3 +15,15 @@ def main():
 
     print(f"Hey {first_name} {last_name} input your credential user email ")
     user_email = input()
+
+user_in = int(input("Reply with 1 to enter password or 2 to generate a new password for you"))
+if user_in ==1:
+        password = input("Enter password: ")
+        conf_pass = input("Confirm password: ")
+        while password !=conf_pass:
+            print("password does not match")
+            conf_pass = input("Confirm password: ")
+
+
+
+
