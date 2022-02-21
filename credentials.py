@@ -1,4 +1,11 @@
+from secrets import choice
+from string import ascii_letters, digits,punctuation
+class Credential:
+    '''
+    a class that creates a new instance of credential
+    '''
 
+    account_list = []
 
 
 
@@ -15,7 +22,7 @@ def generate_password(self,pass_len=8):
         return password
 
 
- def save_credential(self,name,username,password):
+def save_credential(self,name,username,password):
 
         '''
         save_credential mothod saves the user credentials into the credential_list
