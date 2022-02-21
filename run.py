@@ -24,6 +24,19 @@ if user_in ==1:
             print("password does not match")
             conf_pass = input("Confirm password: ")
 
+else:
+        pass_len = int(input("Specifiy password length: "))
+        password = User.generate_password(pass_len)
+        print(f"The generated password is {password}")
+
+
+
+
+
+
+
+
+
 
 
 
