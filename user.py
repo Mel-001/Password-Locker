@@ -13,6 +13,12 @@ class User(Credential):
         self.user_password = user_password
         self.isLoggedIn = True
 
-
+def login(self,email,password):
+        if email == self.user_email and password ==self.user_password:
+            self.isLoggedIn = True
+            return True
+        else:
+            self.isLoggedIn = False
+            return False
 
 
