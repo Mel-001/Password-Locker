@@ -41,4 +41,17 @@ def delete_credential(self,name):
         return True
 
 
+def credential_exist(self, account_name):
+        '''
+        credential_exist this method checks if the credentials of the email being searched for exists
+        
+        Arg:
+            user_email: the user email to search if exists
+        Return:
+            Boolean: True or False
+        '''
 
+        for credential in self.account_list:
+            if credential['name'] == account_name:
+                return True
+        return False
