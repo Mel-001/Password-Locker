@@ -97,4 +97,4 @@ def main():
             print("Invalid short code please use: \n cc - create an account with a user-define password \n dis - display credentials \n cp - create a PassLock account with an auto-generated password \n va - view account \n ex - Exit PassLock ")
 
 if __name__ == '__main__':
-    main()
+     main()
