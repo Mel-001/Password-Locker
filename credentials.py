@@ -55,3 +55,19 @@ def credential_exist(self, account_name):
             if credential['name'] == account_name:
                 return True
         return False
+
+
+def display_credential(self):
+        '''
+        display_credential this method that retuns the list of credential_list
+        '''
+        return self.account_list
+
+
+
+
+
+
+
+
+
