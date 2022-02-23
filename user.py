@@ -1,5 +1,5 @@
 import random
-from credentials import Credential
+from credential import Credential
 class User(Credential):
     """
     Class that generates a new instance User
